@@ -83,7 +83,7 @@ module.exports = function(options, callback) {
 			}
 		})
 
-		if(errors) {
+		if(errors.length > 0) {
 			if(!!callback) {
 				callback(errors)
 			} else {
