@@ -31,6 +31,8 @@ The only arguments taken by the module's function are as follows:
 
 * **options**: a javascript object with any of the following properties:
 * *options.modDir*: the filesystem location where your mod's files live (basically where the _metadata file is).
+
+
 * **callback**: a javascript callback to receive any JSON parsing errors discovered when validating the mod's JSON files.  Will only receive one argument, which is be an array of any errors encountered.
 
 And that's it!  Run the js, and you'll get information on any invalid JSON files in your mod.
