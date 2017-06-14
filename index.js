@@ -95,6 +95,8 @@ module.exports = function(options, callback) {
 		} else {
 			if(!!callback) {
 				callback()
+			} else {
+				process.exit(0)
 			}
 		}
 	})
