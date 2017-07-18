@@ -88,7 +88,7 @@ module.exports = function(options, callback) {
 				callback(errors)
 			} else {
 				errors.forEach(function(err) {
-					let stack = err.stack.replace('^', '!')
+					let stack = err.stack.replace('^', '^^')
 					console.error(stack)
 				})
 				process.exit(1)
