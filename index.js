@@ -88,7 +88,7 @@ module.exports = function(options, callback) {
 				callback(errors)
 			} else {
 				errors.forEach(function(err) {
-					let stack = err.stack.replace(/Parse error on line 1:\n\n\^(\nExpecting)/i, "Parse error on line 1: $1")
+					let stack = err.stack.replace('^', '!')
 					console.error(stack)
 				})
 				process.exit(1)
