@@ -46,6 +46,7 @@ module.exports = function(options, callback) {
 		'.metadata',
 		'.gitignore',
 		'.git',
+		'.buildinfo',
 		'_previewimage'
 	]
 
