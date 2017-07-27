@@ -1,6 +1,6 @@
 {
   "name": "sb-validatejson",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Starbound mod helper - JSON file validation",
   "main": "index.js",
   "scripts": {
